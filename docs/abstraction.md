@@ -33,14 +33,14 @@ ADD R2, R3  ; Adds values in registers R2 and R3
 
 While **Interpreted languages**, such as Python and Ruby, are higher-level languages that are executed by an interpreter at runtime. This layer abstracts away even more details from the underlying architecture, making it easier for developers to write and maintain code while retaining flexibility and ease of use. 
 
-1. Pyhton Code
+1. Python Code:
 A high level human understandable language and structures for human mind to reason;
 
     ```python
     def multiply(a, b):
         return a * b
     ```
-2. Compiled to Assembly
+2. Compiled to Assembly:
 Assembly language is a human-readable form of machine code that uses symbolic representations of operations and addresses. This layer abstracts away some
 of the details of machine language but still requires expertise in programming for specific architectures.
 
@@ -65,7 +65,7 @@ Each abstraction level has its trade-offs in terms of performance, control, and 
 |Layer|Pros|Cons|
 |-----|----|-----|
 |High-Level|Easy to write, read, maintain|Slower(extra translation steps)|
-|Assembly|Faster, precisem hardware control|HArder to write and debug|
+|Assembly|Faster, precise hardware control|Harder to write and debug|
 |Machine Code|Direct CPU execution|Unreadable to humans|
 
 ### Key Principles of Abstraction
@@ -84,7 +84,7 @@ different situations.
 more accessible to a wider range of developers.
 
 ### Conclusion
-Abstration is one of the core concepts in comuter science, which enables us to build complex systems made of small simpler systems i.e componenets.
+Abstraction is one of the core concepts in computer science, which enables us to build complex systems made of small simpler systems i.e components.
 
 
 [^1]: https://godbolt.org

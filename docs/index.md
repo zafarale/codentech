@@ -1,6 +1,6 @@
 ## What is programming:
 
-    A language is a structured system of communication that uses symbols (words, gestures, or code) to convey meaning between individuals or systems.
+>A language is a structured system of communication that uses symbols (words, gestures, or code) to convey meaning between individuals or systems.
 
 Key Aspects:
 - Symbols & Syntax: Rules for combining symbols (e.g., grammar in English, opcodes in machine language).
@@ -11,9 +11,9 @@ Key Aspects:
 
 Just like humans use languages (like English, Spanish, or Mandarin) to share ideas and instructions, we use programming languages to communicate with computers. A programming language provides a structured way to give commands (communicate | prompt) to a computer.
 
-### Programsas vehicle of idea
+### Programs as vehicle of idea
 
-A program is essentially a detailed list of instructions, written in a specific programming language, that instructs a computer exactly, what to do, step by step ([algorithm](./algorithms.md)). 
+A program is essentially a detailed list of instructions, written in a specific programming language, that instructs a computer exactly what to do, step by step ([algorithm](./algorithms/index.md)). 
 
 The computer then [executes](./von-neuman.md) these instructions to achieve a desired outcome, whether it's displaying a webpage, calculating complex equations, or playing your favorite game.
 
@@ -26,7 +26,7 @@ So, if a language is the medium:
 
 Therefore, a programming language is a formal system of **rules, symbols, and structures** used to define and manipulate [data](./data-type.md), and to describe a [sequence of operations](./algorithms.md) or computations. 
 
-language allows us to express algorithms (those step-by-step description) in a way that a computer can ultimately process.
+Languages allow us to express algorithms (those step-by-step description) in a way that a computer can ultimately process.
 
 <details>
    <summary>Medium of expression</summary>
@@ -37,7 +37,7 @@ language allows us to express algorithms (those step-by-step description) in a w
 
 To understand what a programming language can do, we often refer to a theoretical concept called a Turing machine. Proposed by Alan Turing in 1936.
 
-    A Turing machine is an abstract mathematical model of a computer. It's a very simple, hypothetical device that can simulate any computer algorithm, no matter how complex.
+>A Turing machine is an abstract mathematical model of a computer. It's a very simple, hypothetical device that can simulate any computer algorithm, no matter how complex.
 
 <details>
    <summary>Turing Machine</summary>
@@ -57,7 +57,7 @@ To understand what a programming language can do, we often refer to a theoretica
          <b>A state register:</b> This holds the current "state" of the machine. There's a finite number of possible states, including a special "start state" and one or more "halt states" (which stop the machine).
       </li>
       <li>
-         A finite table of instructions (or a transition function): This is the "program" for the Turing machine. Based on the machine's current state and the symbol currently under the read/write head, the instruction table tells the machine: 
+         <b>A finite table of instructions (or a transition function):</b>  This is the "program" for the Turing machine. Based on the machine's current state and the symbol currently under the read/write head, the instruction table tells the machine: 
       </li>
    </ol>
 </details>

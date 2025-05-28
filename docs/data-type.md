@@ -1,7 +1,7 @@
 # Data and its type
 
     Data is any information that can be processed by a computer. It can represent numbers, text, images, or instructions.
-
+https://github.com/zafarale/codentech/blob/main/docs/algorithms.md
 ## Fundamental Data Types
 |Category|	Examples|	Usage|
 ---------|----------|--------|
