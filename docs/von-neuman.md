@@ -1,10 +1,15 @@
-# Von Neuman
-John von Neumann (1903-1957) was a Hungarian mathematician and computer scientist who made significant contributions to the field of computer science and architecture. His work on the stored-program concept laid the foundation for modern computing systems, which are based on the Von Neumann model. In this set of notes, we will explore von Neumann's biography, key contributions to computer architecture theory, and the fundamental principles of the Von Neumann architecture.
+# Von neman
+John von Neumann (1903-1957) was a Hungarian mathematician and computer scientist who made significant contributions to the field of computer science and architecture. His work on the **stored-program concept** laid the foundation for modern computing systems.
 
-## John von Neumann's Early Life and Career:
-Von Neumann was born in Hungary and studied mathematics at the University of Budapest. He later moved to Germany and received his PhD in mathematics from the University of Göttingen in 1928. After World War II, he became a professor of mathematics at Stanford University, where he founded the Computer Sciences Department and served as its head until his death in 1957.
+In this set of notes, we will explore von Neumann's biography, key contributions to computer architecture theory, and the fundamental principles of the Von Neumann architecture.
+
 ## Contributions to Computer Architecture Theory:
-Von Neumann's contributions to computer architecture were extensive and far-reaching. He is credited with developing the stored-program concept, which posits that a computer's memory should store both instructions and data rather than just data. This allowed for more efficient use of memory resources and made it possible to write programs in a higher level language that could be executed directly by the computer without the need for an intermediate translation step.
+Von Neumann's contributions to computer architecture were extensive and far-reaching. He is credited with developing the **stored-program concept**, which argues;
+
+>that a computer's memory should store both instructions and data rather than just data. 
+
+This allowed for more efficient use of memory resources and made it possible to write programs in a higher level language that could be executed directly by the computer without the need for an intermediate translation step.
+
 ## The Von Neumann Architecture:
 >The Von Neumann architecture is a central processing unit (CPU) model that consists of three main components: **- the processing unit,control unit, and memory.** 
 </br> 
@@ -13,6 +18,13 @@ The processing unit performs arithmetic and logical operations on data, while th
 
 ### The Fetch-Decode-Execute Cycle:
 One of the key components of the Von Neumann architecture is the fetch-decode-execute cycle. In this cycle, the CPU first retrieves an instruction from memory, then decodes it into its basic components, and finally executes it by performing the appropriate arithmetic or logical operations on the data. This cycle allows for efficient and flexible processing of instructions.
+
+stateDiagram
+        Execute --> Fetch
+        Fetch --> Decode
+        Decode --> Execute
+
+  
 ### Comparison with Harvard Architecture:
 The Von Neumann architecture is in contrast to the Harvard architecture, which divides memory into separate data and instruction memory regions. The Harvard architecture posits that each component (e.g., CPU, memory) has its own dedicated memory, making it more efficient for managing large amounts of data. However, this model requires an intermediate translation step between instructions and data, making it less efficient than the Von Neumann architecture.
 ### Advantages and Limitations:
