@@ -19,12 +19,13 @@ The processing unit performs arithmetic and logical operations on data, while th
 ### The Fetch-Decode-Execute Cycle:
 One of the key components of the Von Neumann architecture is the fetch-decode-execute cycle. In this cycle, the CPU first retrieves an instruction from memory, then decodes it into its basic components, and finally executes it by performing the appropriate arithmetic or logical operations on the data. This cycle allows for efficient and flexible processing of instructions.
 
+```mermaid
 stateDiagram
         Execute --> Fetch
         Fetch --> Decode
         Decode --> Execute
+```
 
-  
 ### Comparison with Harvard Architecture:
 The Von Neumann architecture is in contrast to the Harvard architecture, which divides memory into separate data and instruction memory regions. The Harvard architecture posits that each component (e.g., CPU, memory) has its own dedicated memory, making it more efficient for managing large amounts of data. However, this model requires an intermediate translation step between instructions and data, making it less efficient than the Von Neumann architecture.
 ### Advantages and Limitations:
