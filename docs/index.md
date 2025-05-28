@@ -1,4 +1,4 @@
-## What is programming:
+## What is programming language:
 
 >A language is a structured system of communication that uses symbols (words, gestures, or code) to convey meaning between individuals or systems.
 
